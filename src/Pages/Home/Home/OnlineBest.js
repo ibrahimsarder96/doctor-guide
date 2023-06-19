@@ -2,12 +2,8 @@ import React from 'react';
 import doctor2  from '../../../assets/doctor2.png';
 const OnlineBest = () => {
   return (
-    <div class="grid grid-cols-2 gap-12 relative">
+    <div class="grid grid-cols-2 lg:gap-4">
   <div>
-    <div className="indicator-item indicator-top absolute  indicator-start badge pt-16 text-accent border-none badge-white">
-    <h1>top+startdaigjhoijgfajkldsh</h1>
-    <h1>top+startdaigjhoijgfajkldsh</h1>
-    </div>
   <img className='h-4/6' src={doctor2} alt="" srcset="" />
   </div>
   <div className='mt-72'>
