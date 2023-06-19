@@ -51,7 +51,7 @@ const Navbar = () => {
       {menuItems}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">Doctor Guides</a>
+    <a className="btn btn-ghost normal-case text-4xl text-primary">Doctor Guides</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -59,8 +59,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <button className="btn bg-primary ">LOGIN</button>
-  <button className="btn bg-primary ml-3">SIGNUP</button>
+  <button className="btn btn-primary text-white">LOGIN</button>
+  <button className="btn btn-primary text-white ml-3">SIGNUP</button>
   </div>
 </div>
   );
