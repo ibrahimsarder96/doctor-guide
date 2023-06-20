@@ -5,6 +5,9 @@ import DoctorShedule from '../DoctorShedule';
 import Services from '../Services';
 import Award from '../Award';
 import Experts from '../Experts';
+import Feedbacks from '../Feedbacks';
+import Feedback from '../Feedback';
+import Events from '../Events';
 
 const Home = () => {
   return (
@@ -15,6 +18,8 @@ const Home = () => {
       <Services></Services>
       <Award></Award>
       <Experts></Experts>
+      <Feedback></Feedback>
+      <Events></Events>
       </div>
   );
 };

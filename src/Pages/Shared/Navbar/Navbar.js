@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStethoscope } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
 const menuItems = <React.Fragment>
@@ -51,7 +53,9 @@ const Navbar = () => {
       {menuItems}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case lg:text-4xl text-primary">Doctor Guides</a>
+    <a className="btn btn-ghost normal-case lg:text-4xl text-primary">
+    <FontAwesomeIcon icon={faStethoscope} />
+      Doctor Guides</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
