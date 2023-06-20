@@ -5,7 +5,7 @@ const Services = () => {
     <div>
       <h1 className='text-center text-4xl font-bold text-accent'>Our Medical Care</h1>
       <h2 className='text-center text-xl font-medium text-accent'>Service We Provide</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-12">
   <div className=" bg-base-100 shadow-xl">
   <figure className="">
   <img className='h-56 w-80' src={doctor2} alt="" srcset="" />
@@ -71,6 +71,12 @@ const Services = () => {
 </div>
 </div>
 </div>
+<div className='flex'>
+<div>
+<button className='btn btn-primary'>Load More Appointment</button>
+</div>
+</div>
+    
     </div>
   );
 };
